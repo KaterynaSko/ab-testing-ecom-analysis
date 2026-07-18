@@ -1,13 +1,13 @@
 # A/B Testing Analysis: E-commerce Product Feature Evaluation
 
-## 📌 Project Overview
+## Project Overview
 This project focuses on evaluating the results of an A/B test for a new e-commerce product feature. The goal is to determine whether the new feature (Treatment group) delivers a statistically significant improvement over the current version (Control group) across key product metrics: Conversion Rate, Session Duration, and Pages Visited.
 
 The analysis is conducted using a robust data pipeline: **SQL** for data aggregation and segmentation, **Python** for statistical hypothesis testing, and **Tableau** for interactive executive dashboards.
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 The analysis is based on the `ab_test_results.csv` dataset, which includes the following user metrics:
 *   `user_id`: Unique identifier for each user.
 *   `variant`: The test group assignment (`control` or `treatment`).
@@ -18,7 +18,7 @@ The analysis is based on the `ab_test_results.csv` dataset, which includes the f
 
 ---
 
-## 🛠️ Tech Stack & Methodology
+## Tech Stack & Methodology
 
 ### 1. Data Aggregation & Segmentation (SQL)
 SQL was utilized to perform initial data exploration, calculate baseline metrics per group, and segment user engagement by age brackets (`<25`, `25-34`, `35-44`, `45+`).
@@ -37,11 +37,11 @@ An interactive dashboard built in Tableau provides a deep dive into metric perfo
 
 ---
 
-## 🚀 Key Findings & Insights
+## Key Findings & Insights
 *(Note: Update these findings based on the exact outputs of your code)*
 *   **Conversion Rate:** The Treatment group showed a statistically significant increase in conversion rate ($p < 0.05$).
 *   **User Engagement:** Both average session duration and pages visited demonstrated solid growth in the treatment variant.
 *   **Age Heterogeneity:** Segmented analysis reveals that the new feature performed consistently well across all age groups, with the highest engagement lift observed in the `25-34` cohort.
 
-## 💡 Recommendation
+## Recommendation
 Based on the statistical significance of the Primary KPI (Conversion Rate) and positive directional shifts in Guardrail engagement metrics, **it is recommended to roll out the Treatment feature to 100% of the user base.**
