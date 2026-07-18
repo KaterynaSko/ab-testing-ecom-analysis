@@ -8,7 +8,7 @@ The analysis is conducted using a robust data pipeline: **SQL** for data aggrega
 ---
 
 ## Dataset Description
-The analysis is based on the `ab_test_results.csv` dataset, which includes the following user metrics:
+The analysis is based on the source dataset: [`ab_test_results.csv`](./ab_test_results.csv)
 *   `user_id`: Unique identifier for each user.
 *   `variant`: The test group assignment (`control` or `treatment`).
 *   `converted`: Binary indicator of user conversion (`0` = no, `1` = yes).
