@@ -32,7 +32,7 @@ To validate if the observed differences between the groups were statistically si
 
 ### 3. Data Visualization (Tableau)
 An interactive dashboard built in Tableau provides a deep dive into metric performance across different age groups (Small Multiples matrix chart).
-*   *Interactive Dashboard:* [View on Tableau Public]((https://public.tableau.com/views/abtestanalyse/Resultsofstatisticaltests?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+*   *Interactive Dashboard:* [View on Tableau Public](https://public.tableau.com/views/abtestanalyse/Resultsofstatisticaltests?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 ![Tableau Dashboard](./A_B_test_analyse.png)
 
 ---
