@@ -38,7 +38,6 @@ An interactive dashboard built in Tableau provides a deep dive into metric perfo
 ---
 
 ## Key Findings & Insights
-*(Note: Update these findings based on the exact outputs of your code)*
 *   **Conversion Rate:** The Treatment group showed a statistically significant increase in conversion rate ($p < 0.05$).
 *   **User Engagement:** Both average session duration and pages visited demonstrated solid growth in the treatment variant.
 *   **Age Heterogeneity:** Segmented analysis reveals that the new feature performed consistently well across all age groups, with the highest engagement lift observed in the `25-34` cohort.
